@@ -44,9 +44,9 @@
   -webkit-border-image-slice: 1;
   border-image-slice: 1;
   @include supportIE11() {
-    color: $secondary-color !important;
+    color: $dark-blue-text !important;
     &:hover {
-      color: $white-color !important;
+      color: $dark-blue-text !important;
     }
   }
 
